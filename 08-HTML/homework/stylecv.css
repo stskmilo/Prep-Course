@@ -1,17 +1,15 @@
+body {
+    background-image: url('bg.jpg');
+}
+
 .vertical-container {
+    display: flex;
     height: auto;
-    display: -webkit-flex;
-    display:         flex;
     -webkit-align-items: center;
             align-items: center;
     -webkit-justify-content: center;
             justify-content: center;
   }
-
-body {
-    background-image: url('bg.jpg');
-}
-
 
 h1{
     color:rgb(54, 0, 248);
@@ -28,8 +26,9 @@ h4{
     text-align: center;
 }
 
-.divClass{
-    text-align: center;
+img{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .referencias{
@@ -38,14 +37,7 @@ h4{
     margin: 1px;
 }
 
-img{
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-
 #thirdDiv{
-    max-height: fit-content;
     max-width: 500px;
     margin: 0 auto;
     background-color: rgb(105, 103, 206);
@@ -66,12 +58,8 @@ img{
     max-height:100px;
 }
 
-#spanId{
-    font-size: 18px;
-    margin: 50px;
-    text-align: center;
-}
-
-div{
-    margin:auto;
+#footer{
+    position:fixed;
+    bottom: 0px;
+    right: 5px;
 }
