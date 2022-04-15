@@ -1,0 +1,77 @@
+.vertical-container {
+    height: auto;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+  }
+
+body {
+    background-image: url('bg.jpg');
+}
+
+
+h1{
+    color:rgb(54, 0, 248);
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.divClass{
+    text-align: center;
+}
+
+.referencias{
+    background-color:black;
+    color: white;
+    margin: 1px;
+}
+
+img{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+#thirdDiv{
+    max-height: fit-content;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(105, 103, 206);
+    padding: 50px;
+    border-radius: 1px;
+    border-color: rgb(223, 241, 237);
+    border-style: groove;
+}
+
+#items{
+    background-color:beige;
+    padding: 1px;
+    text-align: center;
+    margin: 5px;
+}
+
+#foto{
+    max-height:100px;
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    text-align: center;
+}
+
+div{
+    margin:auto;
+}
